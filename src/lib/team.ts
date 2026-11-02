@@ -43,8 +43,8 @@ export const coFounders: TeamMember[] = [
     },
     entity: 'korea',
     bio: {
-      ko: '넥슨 초대 CFO로 넥슨의 일본 상장을 주도하고, 넥소노바·Studio Ex (디즈니 인수) 창업. 스파크랩 공동 창업 후 대한민국 대표 액셀러레이터로 성장시켰다.',
-      en: 'Launched Nexon\'s IPO in Tokyo as its first CFO. Founded Nexonova and Studio Ex (acquired by Disney). Co-founded SparkLabs and grew it into Korea\'s flagship accelerator.',
+      ko: '넥슨 포탈 본부장과 넥슨 개발 자회사 넥슨노바 대표를 지냈고, Studio Ex (디즈니 인수)에 초기 투자했다. 스파크랩 공동 창업 후 대한민국 대표 액셀러레이터로 성장시켰다.',
+      en: 'Former head of Nexon\'s portal and CEO of Nexonova, Nexon\'s game development subsidiary. Founding investor in Studio Ex (acquired by Disney). Co-founded SparkLabs and grew it into Korea\'s flagship accelerator.',
     },
   },
   {

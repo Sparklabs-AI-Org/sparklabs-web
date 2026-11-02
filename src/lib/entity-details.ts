@@ -69,8 +69,8 @@ export const entityDetails: Record<string, EntityDetail> = {
         name: 'Jimmy Kim',
         role: { ko: '공동 창업자 · Partner', en: 'Co-founder & Partner' },
         bio: {
-          ko: '넥슨 일본 상장을 주도한 초대 CFO이자 Studio Ex(디즈니 인수)·Nexonova 창업자 출신의 시리얼 앙트러프러너.',
-          en: 'Serial entrepreneur. Former founding CFO at Nexon (led its Japan IPO) and founder of Studio Ex (acquired by Disney) and Nexonova.',
+          ko: '넥슨 포탈 본부장과 넥슨 개발 자회사 넥슨노바 대표를 지낸 시리얼 앙트러프러너. Studio Ex(디즈니 인수) 초기 투자자.',
+          en: 'Serial entrepreneur. Former head of Nexon\'s portal and CEO of Nexonova, Nexon\'s game development subsidiary; founding investor in Studio Ex (acquired by Disney).',
         },
       },
       {
