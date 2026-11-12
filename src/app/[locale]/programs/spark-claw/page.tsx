@@ -89,6 +89,9 @@ export default async function SparkClawPage({
                 <p className="mt-2 text-2xl font-semibold text-white">
                   {s.value}
                 </p>
+                {'note' in s && s.note && (
+                  <p className="mt-1 text-sm text-white/60">({s.note})</p>
+                )}
               </div>
             ))}
           </div>
@@ -139,6 +142,11 @@ export default async function SparkClawPage({
                 {b.value && (
                   <p className="text-xl font-semibold text-spark-red">
                     {b.value}
+                    {'note' in b && b.note && (
+                      <span className="ml-1.5 text-sm font-normal text-ink/50">
+                        ({b.note})
+                      </span>
+                    )}
                   </p>
                 )}
                 <p className="text-xs uppercase tracking-[0.14em] text-spark-red/80">
@@ -284,7 +292,7 @@ const content = {
     ctaVisit: 'Spark Claw 사이트 바로가기',
     ctaSubscribe: '1기 모집 알림 받기',
     heroStats: [
-      { label: '초기 투자 규모', value: '₩50M – 100M' },
+      { label: '초기 투자 규모', value: '1억 원 ~ 최대 2억 원', note: 'TIPS 프로그램 연계' },
       { label: '지원 대상', value: '1인 AI 창업자' },
       { label: '운영 방식', value: '온라인 중심 + 오프라인 밋업' },
     ],
@@ -303,7 +311,8 @@ const content = {
     benefits: [
       {
         title: '초기 투자',
-        value: '₩50M – 100M',
+        value: '1억 원 ~ 최대 2억 원',
+        note: 'TIPS 프로그램 연계',
         tag: 'AI 인프라',
         body: '집중 부트캠프를 통과한 창업가 대상 초기 투자.',
       },
@@ -389,7 +398,7 @@ const content = {
     ctaVisit: 'Visit Spark Claw site',
     ctaSubscribe: 'Subscribe for Cohort 01',
     heroStats: [
-      { label: 'Initial investment', value: 'KRW 50M – 100M' },
+      { label: 'Initial investment', value: 'KRW 100M – up to 200M', note: 'via TIPS program' },
       { label: 'Who it\u2019s for', value: 'Solo AI founders' },
       { label: 'Format', value: 'Online-first + offline meetups' },
     ],
@@ -408,7 +417,8 @@ const content = {
     benefits: [
       {
         title: 'Initial Investment',
-        value: 'KRW 50M – 100M',
+        value: 'KRW 100M – up to 200M',
+        note: 'via TIPS program',
         tag: 'Capital',
         body: 'Seed investment for founders who complete the intensive bootcamp.',
       },

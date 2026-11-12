@@ -272,7 +272,7 @@ const content = {
         tag: 'New',
         body: 'AI 에이전트를 팀원처럼 활용하는 1인 창업가를 위한 프로그램. Cohort 01 사전 모집 중.',
         bullets: [
-          '₩50M–100M 초기 투자',
+          '1억~최대 2억 원 초기 투자 (TIPS 프로그램 연계)',
           'OpenAI · Anthropic API 크레딧',
           'AI 창업자 커뮤니티 네트워크',
         ],
@@ -378,7 +378,7 @@ const content = {
         tag: 'New',
         body: 'A program for solo founders who treat AI agents as teammates. Cohort 01 pre-signup is live.',
         bullets: [
-          'KRW 50M–100M seed investment',
+          'KRW 100M–200M seed investment (via TIPS program)',
           'OpenAI & Anthropic API credits',
           'AI-founder community & network',
         ],
